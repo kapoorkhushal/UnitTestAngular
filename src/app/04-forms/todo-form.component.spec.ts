@@ -34,6 +34,6 @@ xdescribe('TodoFormComponent', () => {
 
 		control.setValue('khushal.kapoor@nagarro.com');
 
-		expect(control.valid).toBeFalsy();
+		expect(control.valid).toBeTruthy();
 	});
 });
